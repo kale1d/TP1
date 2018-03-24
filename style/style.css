@@ -2,3 +2,35 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.box-container {
+	display: flex;
+	justify-content: space-between;
+	width: 1500px;
+	height: auto;
+	padding: 10px;
+	background-color: pink;
+}
+
+.box {
+	height: auto;
+	width: 490px;
+	background-color: gray;
+	display: flex;
+	align-items: flex-start;
+}
+
+.thumb {
+	background-color: peru;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+
+.text-container {
+	margin-left: 20px;
+}
+
+h4, span {
+	font-family: sans-serif;
+}
