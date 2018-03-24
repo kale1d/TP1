@@ -2,3 +2,28 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.footer-container {
+	width: 1500px;
+	height: 80px;
+	background-color: pink;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.email {
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.social-container {
+	display: flex;
+}
+
+.social-icons {
+	width: 36px;
+	height: 36px;
+	background-color: red;
+	margin-right: 20px;
+}
