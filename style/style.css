@@ -3,9 +3,18 @@ body {
 	padding: 0;
 }
 
+.slider-container {
+	margin-top: 10px;
+	width: 1480px;
+	height: 340px;
+	background-color: red;
+	text-align: center;
+}
+
 .box-container {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 	width: 1500px;
 	height: auto;
 	padding: 10px;
@@ -38,14 +47,14 @@ h4, span {
 .main-container {
 	background-color: lightgrey;
 	width: 100%;
-	height: 600px;
+	height: auto;
 	overflow: auto;
 }
 
 
 .nav-container {
 	padding: 0;
-	width: 100%;
+	width: 1500px;
 	height: 60px;
 	background-color: #C5FFBD;
 	position: fixed;
@@ -64,9 +73,9 @@ h4, span {
 
 .menu-container {
 display: flex;
-width: 100%;
+width: 1500px;
 justify-content: flex-end;
-align-content: center;
+align-content: flex-end;
 }
 
 ul {
@@ -81,7 +90,7 @@ li {
 
 .who-container {
 	display: flex;
-	width: 100%;
+	width: 1500px;
 	height: 150px;
 	background-color: #A783FF;
 	margin-top: 70px;
@@ -103,7 +112,7 @@ height: 100px;
 .who {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 1500px;
 	justify-content: center;
 	align-items: center;
 }
@@ -128,7 +137,8 @@ h3 {
 .footer-container {
 	width: 1500px;
 	height: 80px;
-	background-color: pink;
+	margin-top: 10px;
+	background-color: blue;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
