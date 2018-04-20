@@ -14,8 +14,7 @@ body {
 .box-container {
 	display: flex;
 	justify-content: flex-start;
-	flex-wrap: wrap;
-	width: 1500px;
+	max-width: 1480px;
 	height: auto;
 	padding: 10px;
 	background-color: pink;
@@ -135,7 +134,7 @@ h3 {
 }
 
 .footer-container {
-	width: 1500px;
+	max-width: 1480px;
 	height: 80px;
 	margin-top: 10px;
 	background-color: blue;
