@@ -3,6 +3,10 @@ body {
 	padding: 0;
 }
 
+.main-container {
+	font-family: sans-serif;
+}
+
 .slider-container {
 	margin-top: 10px;
 	width: 1480px;
@@ -39,10 +43,6 @@ body {
 	margin-left: 20px;
 }
 
-h4, span {
-	font-family: sans-serif;
-}
-
 .main-container {
 	background-color: lightgrey;
 	width: 100%;
@@ -52,16 +52,13 @@ h4, span {
 
 
 .nav-container {
+	margin-bottom: 10px;
 	padding: 0;
-	width: 1500px;
 	height: 60px;
 	background-color: #C5FFBD;
-	position: fixed;
-	z.z-index: 2;
 	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: flex-start;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .navimg {
@@ -72,7 +69,7 @@ h4, span {
 
 .menu-container {
 display: flex;
-width: 1500px;
+width: 800px;
 justify-content: flex-end;
 align-content: flex-end;
 }
@@ -89,41 +86,38 @@ li {
 
 .who-container {
 	display: flex;
-	width: 1500px;
-	height: 150px;
+	align-items:flex-end;
+	justify-content: space-between;
+	height: 120px;
 	background-color: #A783FF;
-	margin-top: 70px;
-}
-
-.img100 {
-width: 100px;
-height: 100%;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+	padding-bottom: 10px
 }
 
 .charlie {
 width: 100px;
 height: 100px;
+margin-left: 20px;
 }
 
 .who {
-	display: flex;
-	flex-direction: row;
-	width: 1500px;
-	justify-content: center;
-	align-items: center;
+	height: 100px;
+	width: 980px;
+	margin-left: 50px;
 }
 
 h3 {
 	font-size: 20px;
+	margin: 0;
 }
 
 .ico {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.ico strong {
+	font-size: 16px;
+	display: block;
 	margin-bottom: 10px;
 }
 
@@ -144,7 +138,6 @@ h3 {
 }
 
 .email {
-	font-family: sans-serif;
 	margin-left: 20px;
 }
 
