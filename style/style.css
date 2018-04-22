@@ -11,7 +11,7 @@ font-family: 'Do Hyeon', sans-serif;
 	margin-top: 10px;
 	width: 100%;
 	height: 340px;
-	background-color: red;
+	background-color: lightpink;
 	text-align: center;
 }
 
@@ -27,7 +27,7 @@ font-family: 'Do Hyeon', sans-serif;
 	max-width: 1480px;
 	height: 200 px;
 	padding: 10px;
-	background-color: pink;
+	background-color: #d5b8ff;
 }
 
 .box {
@@ -57,7 +57,7 @@ font-family: 'Do Hyeon', sans-serif;
 }
 
 .main-container {
-	background-color: lightgrey;
+	background-color: #fcfcfc;
 	width: 100%;
 	height: auto;
 	overflow: auto;
@@ -68,7 +68,7 @@ font-family: 'Do Hyeon', sans-serif;
 	margin-bottom: 10px;
 	padding: 0;
 	height: 60px;
-	background-color: #C5FFBD;
+	background-color: #ffe3f9;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -102,7 +102,7 @@ li {
 	align-items:flex-end;
 	justify-content: space-between;
 	height: 120px;
-	background-color: #A783FF;
+	background-color: #d5b8ff;
 	padding-bottom: 10px
 }
 
@@ -144,7 +144,7 @@ h3 {
 	max-width: 1480px;
 	height: 80px;
 	margin-top: 10px;
-	background-color: white;
+	background-color: #ffe3f9;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
