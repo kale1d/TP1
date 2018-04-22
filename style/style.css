@@ -4,7 +4,7 @@ body {
 }
 
 .main-container {
-	font-family: sans-serif;
+font-family: 'Do Hyeon', sans-serif;
 }
 
 .slider-container {
@@ -13,6 +13,11 @@ body {
 	height: 340px;
 	background-color: red;
 	text-align: center;
+}
+
+.slider-container img {
+	width: 100%;
+	height: 340px;
 }
 
 .box-container {
@@ -37,6 +42,10 @@ body {
 	width: 150px;
 	height: 150px;
 	margin-left: 20px;
+}
+.thumb img {
+	width: 100%;
+	height: 100%;
 }
 
 .text-container {
@@ -66,7 +75,7 @@ body {
 }
 
 .navimg {
-	width: 40px;
+	width: 60px;
 	height: auto;
 
 }
@@ -135,7 +144,7 @@ h3 {
 	max-width: 1480px;
 	height: 80px;
 	margin-top: 10px;
-	background-color: blue;
+	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -152,6 +161,6 @@ h3 {
 .social-icons {
 	width: 36px;
 	height: 36px;
-	background-color: red;
+	background-color: white;
 	margin-right: 20px;
 }
