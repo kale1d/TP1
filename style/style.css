@@ -97,6 +97,11 @@ li {
 	display: inline-block;
 }
 
+a {
+	text-decoration: none;
+	color: #952cff;
+}
+
 .who-container {
 	display: flex;
 	align-items:flex-end;
